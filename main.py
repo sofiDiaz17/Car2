@@ -1,5 +1,5 @@
 class Car:
-	def __init__(self, brand, model, color):
+	def __init__(self, brand, model):
 		self.brand = brand
 		self.model = model
 		self.color = color
@@ -13,7 +13,7 @@ class Car:
 		print ("la marca actual es " + self.brand)
 
 def main():
-	auto = Car("bmw","z3","black")
+	auto = Car("bmw","z3")
 	auto.set_brand("audi")
 	auto.get_brand()
 
